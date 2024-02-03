@@ -34,8 +34,7 @@ def main():
 
         endTime = timeit.default_timer()
         st.write(completion.choices[0].message.content)
-        st.write(f"\n\nQuery execution time: {endTime - startTime:.3f} s.")
-
+        st.write(f"\n\nQuery execution time: {endTime - startTime:.3f} s.")        
 
 if __name__ == "__main__":
     main()

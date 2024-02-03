@@ -10,3 +10,12 @@
 
 ## Install dependencies from requirements.txt:
     pip install -r requirements.txt
+
+---
+## Stremlit setup
+
+### Install streamlit package
+    pip install streamlit
+
+### Run the app
+    streamlit run app.py
